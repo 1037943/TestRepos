@@ -8,7 +8,7 @@ RUN mkdir  /EnterpriseAppsMaker && \
  chmod 777 /EnterpriseAppsMaker/logs && \
  chmod 777 /EnterpriseAppsMaker
 # Copy EAM generated deployable
-#COPY Deployment/InitW1/SpringBootDemo/appserver/SpringBootDemo-1.1.1.jar /EnterpriseAppsMaker
+COPY Deployment/InitW1/SpringBootDemo/appserver/SpringBootDemo-1.1.1.jar /EnterpriseAppsMaker
 # Expose the http, database and administration ports
 EXPOSE 8761 9990
 # Specify container startup command
