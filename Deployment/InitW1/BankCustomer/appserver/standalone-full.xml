@@ -156,13 +156,13 @@
                 </datasource>
                 				<xa-datasource enabled="true" jndi-name="java:/MCDataSource" pool-name="MCDataSource" use-java-context="true">
 					<xa-datasource-property name="ServerName">
-						localhost
+						01HW424708
 					</xa-datasource-property>
 					<xa-datasource-property name="PortNumber">
 						5433
 					</xa-datasource-property>
 					<xa-datasource-property name="DatabaseName">
-						ShubhamApplication
+						DockerApplication
 					</xa-datasource-property>
 					<driver>postgresql</driver>
 					<xa-pool>
