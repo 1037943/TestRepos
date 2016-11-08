@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE SERVICE_MAPPINGS [
+	<!ELEMENT SERVICE_MAPPINGS (SERVICE*)>
+	<!ELEMENT SERVICE (NAME,BEAN_HOME_INTF)>
+	<!ELEMENT NAME (#PCDATA)>
+	<!ELEMENT BEAN_HOME_INTF (#PCDATA)>
+]>
+
+<SERVICE_MAPPINGS>
+	<SERVICE>
+		<NAME>svc_create_1001bee5a5caa13b_8d16a0f7e2b69d80(LAssemblyProCompA.StudentDTO)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_modify_93b544c607ce18f_1cfd99975a9d56be(LAssemblyProCompA.AssemblyProviderStudent)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_search_42a8ce200782f4dc_8bc381b877ea8700(LAssemblyProCompA.StudentDTO)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_createEmp_d69b60dd76ceb0fb_26b13d8c723c68f2(LAssemblyProCompA.EmployeeDTO)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_searchQueryMetaData_5196ce4a81c3f30d_6de91e8c1bcb5847(LAssemblyProCompA.StudentDTO)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_withoutReturn_fff2f6d22c7b96bb_f4d376244a360d46(LAssemblyProCompA.EmployeeDTO)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_delete_c04b9acebc18e075_e5bde8719c5881c2(LAssemblyProCompA.AssemblyProviderStudent)</NAME>
+		<BEAN_HOME_INTF>AssemblyProCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_createPro_cb1fcd0d37b6682b_6dcd35105cc95123(LAssemblyConsumerCompA.StudentConDTOReq)</NAME>
+		<BEAN_HOME_INTF>AssemblyConsumerCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_modifyPro_def59e86cd4ef01f_672880c8feee7e2e(LAssemblyConsumerCompA.EntityClassStuRaq)</NAME>
+		<BEAN_HOME_INTF>AssemblyConsumerCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_SearchPro_e6c9af8aa83461b3_257e8fae14920e8d(LAssemblyConsumerCompA.StudentConDTOReq)</NAME>
+		<BEAN_HOME_INTF>AssemblyConsumerCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>svc_createEmployeePro_c404d47aae8c9f55_12eee4ca1bd579bc(LAssemblyConsumerCompA.EmployeeConDTOReq)</NAME>
+		<BEAN_HOME_INTF>AssemblyConsumerCompABEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+</SERVICE_MAPPINGS>

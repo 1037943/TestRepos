@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE menu [<!ELEMENT menu (menuGroup*, menuLink*)*>
+
+<!ELEMENT menuGroup (menuGroup*|menuLink+)+>
+<!ELEMENT menuLink (#PCDATA)>
+
+
+<!ATTLIST menuGroup key CDATA #REQUIRED>
+<!ATTLIST menuGroup label CDATA #REQUIRED>
+
+<!ATTLIST menuLink key CDATA #REQUIRED>
+<!ATTLIST menuLink label CDATA #REQUIRED>
+<!ATTLIST menuLink mode CDATA #REQUIRED>
+<!ATTLIST menuLink windowname CDATA #REQUIRED>
+<!ATTLIST menuLink module CDATA #REQUIRED>]><menu><menuGroup key="AssemblyConsumerCompA_GUI" label="AssemblyConsumerCompA_GUI">
+    <menuLink label="SearchScreenA"  key="AssemblyConsumerCompA_GUI.SearchScreenA" windowname="SearchScreenA" module="AssemblyConsumerCompA_GUI"  mode="DEFAULT"/>
+    <menuLink label="StudentDetaildA"  key="AssemblyConsumerCompA_GUI.StudentDetaildA" windowname="StudentDetaildA" module="AssemblyConsumerCompA_GUI"  mode="DEFAULT"/>
+</menuGroup >
+</menu>
