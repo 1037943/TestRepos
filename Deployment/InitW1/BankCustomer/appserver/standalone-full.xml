@@ -156,7 +156,7 @@
                 </datasource>
                 				<xa-datasource enabled="true" jndi-name="java:/MCDataSource" pool-name="MCDataSource" use-java-context="true">
 					<xa-datasource-property name="ServerName">
-						localhost
+						01hw424708
 					</xa-datasource-property>
 					<xa-datasource-property name="PortNumber">
 						5433
