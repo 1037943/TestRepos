@@ -2,13 +2,11 @@
 FROM tcseamdocker/wildfly-9.0.1.final
 MAINTAINER Enterprise AppsMaker masterCraft.support@tcs.com
 USER root
-# Copy EAM generated deployable
-COPY Deployment/InitW1/BankCustomer/appserver/BankCustomer.ear /opt/jboss/wildfly/standalone/deployments
 # Copy config files
-COPY Deployment/InitW1/BankCustomer/appserver/standalone-full.xml /opt/jboss/wildfly/standalone/configuration
-COPY Deployment/InitW1/BankCustomer/scripts/startservers.sh /home
+COPY Deployment/InitW1/CollegeComp/appserver/standalone-full.xml /opt/jboss/wildfly/standalone/configuration
+COPY Deployment/InitW1/CollegeComp/scripts/startservers.sh /home
 # Create necessary directories and set permissions
-ADD Deployment/InitW1/BankCustomer/runtimeconfig/ConfigDir /home/ConfigDir
+ADD Deployment/InitW1/CollegeComp/runtimeconfig/ConfigDir /home/ConfigDir
 RUN chmod 555 /home/startservers.sh && \
  chmod 777 /home/ConfigDir && \
  mkdir  /home/logs && \
