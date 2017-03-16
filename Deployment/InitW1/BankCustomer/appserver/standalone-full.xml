@@ -159,10 +159,10 @@
 						localhost
 					</xa-datasource-property>
 					<xa-datasource-property name="PortNumber">
-						5433
+						5432
 					</xa-datasource-property>
 					<xa-datasource-property name="DatabaseName">
-						ShubhamApplication
+						AppRepos5.2
 					</xa-datasource-property>
 					<driver>postgresql</driver>
 					<xa-pool>
@@ -171,7 +171,7 @@
 					</xa-pool>
 					<security>
 						<user-name>postgres</user-name>
-						<password>p@ssw0rd</password>
+						<password>postgres</password>
 					</security>
 					<statement>
 						<prepared-statement-cache-size>20</prepared-statement-cache-size>

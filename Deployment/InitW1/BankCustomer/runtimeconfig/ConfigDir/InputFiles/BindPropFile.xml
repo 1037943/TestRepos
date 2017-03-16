@@ -9,19 +9,31 @@
 
 <SERVICE_MAPPINGS>
 	<SERVICE>
-		<NAME>svc_create_f6d016921213525b_a2b1e3e43fd61647(LBankCustomer.CustomerDetails)</NAME>
+		<NAME>serv_create_1b5d041851ec6be5_f56b46433bc43525(LBankCustomer.Customer)</NAME>
 		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
 	</SERVICE>
 	<SERVICE>
-		<NAME>svc_get_3a25e78298574097_a84171b0ffea12c(LDomains.d_intClass)</NAME>
+		<NAME>serv_get_c150b107d88ea80_f4ca67ea6ee22f93(LDomains.d_intClass)</NAME>
 		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
 	</SERVICE>
 	<SERVICE>
-		<NAME>svc_modify_c3a8374533ab5e4c_41175b76de992e1b(LBankCustomer.CustomerDetails)</NAME>
+		<NAME>serv_modify_80fea8b2e198f821_8a41c9812eea9ee6(LBankCustomer.Customer)</NAME>
 		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
 	</SERVICE>
 	<SERVICE>
-		<NAME>svc_delete_f027b74d1812747e_eddd3671bd4a1c4d(LDomains.d_intClass)</NAME>
+		<NAME>serv_delete_78a659e1cad67512_563dafdb773a78ad(LDomains.d_intClass)</NAME>
+		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>serv_getAll_e5749de34cedb8cb_d4605612fbc710b9(LDomains.d_intClass)</NAME>
+		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>serv_getById_7aacbdd6094d4b25_e8033709eae019f3(LDomains.d_intClass)</NAME>
+		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>serv_createNdModify_b0aa0ea46bbc7cec_3fb05df48dce0680(LBankCustomer.Customer)</NAME>
 		<BEAN_HOME_INTF>BankCustomerBEAN_LOCAL_INTF</BEAN_HOME_INTF>
 	</SERVICE>
 </SERVICE_MAPPINGS>

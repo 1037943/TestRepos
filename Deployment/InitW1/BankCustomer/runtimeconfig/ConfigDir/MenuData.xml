@@ -11,7 +11,13 @@
 <!ATTLIST menuLink label CDATA #REQUIRED>
 <!ATTLIST menuLink mode CDATA #REQUIRED>
 <!ATTLIST menuLink windowname CDATA #REQUIRED>
-<!ATTLIST menuLink module CDATA #REQUIRED>]><menu><menuGroup key="BankCustomer_GUI" label="BankCustomer_GUI">
-    <menuLink label="Bank Customer Details"  key="BankCustomer_GUI.BankCustomerDetails" windowname="BankCustomerDetails" module="BankCustomer_GUI"  mode="DEFAULT"/>
+<!ATTLIST menuLink module CDATA #REQUIRED>]><menu>
+<menuGroup key="BankCustomer_GUI" label="BankCustomer_GUI">
+    <menuLink label="Create"  key="BankCustomer_GUI.Create" windowname="Create" module="BankCustomer_GUI"  mode="DEFAULT"/>
+    <menuLink label="Delete"  key="BankCustomer_GUI.Delete" windowname="Delete" module="BankCustomer_GUI"  mode="DEFAULT"/>
+    <menuLink label="Get"  key="BankCustomer_GUI.Get" windowname="Get" module="BankCustomer_GUI"  mode="DEFAULT"/>
+    <menuLink label="GetAll"  key="BankCustomer_GUI.GetAll" windowname="GetAll" module="BankCustomer_GUI"  mode="DEFAULT"/>
+    <menuLink label="GetById"  key="BankCustomer_GUI.GetById" windowname="GetById" module="BankCustomer_GUI"  mode="DEFAULT"/>
+    <menuLink label="Modify"  key="BankCustomer_GUI.Modify" windowname="Modify" module="BankCustomer_GUI"  mode="DEFAULT"/>
 </menuGroup >
 </menu>
