@@ -159,10 +159,10 @@
 						localhost
 					</xa-datasource-property>
 					<xa-datasource-property name="PortNumber">
-						5432
+						5433
 					</xa-datasource-property>
 					<xa-datasource-property name="DatabaseName">
-						AppRepos5.2
+						EAM_5.3_Application_Final
 					</xa-datasource-property>
 					<driver>postgresql</driver>
 					<xa-pool>
@@ -171,7 +171,7 @@
 					</xa-pool>
 					<security>
 						<user-name>postgres</user-name>
-						<password>postgres</password>
+						<password>p@ssw0rd</password>
 					</security>
 					<statement>
 						<prepared-statement-cache-size>20</prepared-statement-cache-size>
