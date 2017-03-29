@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE menu [<!ELEMENT menu (menuGroup*, menuLink*)*>
+
+<!ELEMENT menuGroup (menuGroup*|menuLink+)+>
+<!ELEMENT menuLink (#PCDATA)>
+
+
+<!ATTLIST menuGroup key CDATA #REQUIRED>
+<!ATTLIST menuGroup label CDATA #REQUIRED>
+
+<!ATTLIST menuLink key CDATA #REQUIRED>
+<!ATTLIST menuLink label CDATA #REQUIRED>
+<!ATTLIST menuLink mode CDATA #REQUIRED>
+<!ATTLIST menuLink windowname CDATA #REQUIRED>
+<!ATTLIST menuLink module CDATA #REQUIRED>]><menu>
+<menuGroup key="RegressionCompGui" label="RegressionCompGui">
+    <menuLink label="AllWidgetMandatoryScreen"  key="RegressionCompGui.AllWidgetMandatoryScreen" windowname="AllWidgetMandatoryScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="AllWidgetScreen"  key="RegressionCompGui.AllWidgetScreen" windowname="AllWidgetScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="AllWidgetVectorScreen"  key="RegressionCompGui.AllWidgetVectorScreen" windowname="AllWidgetVectorScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="CompositeFKScalarScreen"  key="RegressionCompGui.CompositeFKScalarScreen" windowname="CompositeFKScalarScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="CompositePKScalarScreen"  key="RegressionCompGui.CompositePKScalarScreen" windowname="CompositePKScalarScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="ScalarClsAllDataTypMdtry"  key="RegressionCompGui.ScalarClsAllDataTypMdtry" windowname="ScalarClsAllDataTypMdtry" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="ScalarClsAllDataTypOpt"  key="RegressionCompGui.ScalarClsAllDataTypOpt" windowname="ScalarClsAllDataTypOpt" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="SearchAllWidgetParent"  key="RegressionCompGui.SearchAllWidgetParent" windowname="SearchAllWidgetParent" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="SearchCompositeFKScalarScreen"  key="RegressionCompGui.SearchCompositeFKScalarScreen" windowname="SearchCompositeFKScalarScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="SearchCompositePKScalarScreen"  key="RegressionCompGui.SearchCompositePKScalarScreen" windowname="SearchCompositePKScalarScreen" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="SearchScalarMndtry"  key="RegressionCompGui.SearchScalarMndtry" windowname="SearchScalarMndtry" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="SearchScalarOpt"  key="RegressionCompGui.SearchScalarOpt" windowname="SearchScalarOpt" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="TempCreate"  key="RegressionCompGui.TempCreate" windowname="TempCreate" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="VectorClsAllDataTypMndtry"  key="RegressionCompGui.VectorClsAllDataTypMndtry" windowname="VectorClsAllDataTypMndtry" module="RegressionCompGui"  mode="DEFAULT"/>
+    <menuLink label="VectorClsAllDataTypOpt"  key="RegressionCompGui.VectorClsAllDataTypOpt" windowname="VectorClsAllDataTypOpt" module="RegressionCompGui"  mode="DEFAULT"/>
+</menuGroup >
+</menu>
