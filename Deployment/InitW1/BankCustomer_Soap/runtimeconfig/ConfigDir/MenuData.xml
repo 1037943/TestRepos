@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE menu [<!ELEMENT menu (menuGroup*, menuLink*)*>
+
+<!ELEMENT menuGroup (menuGroup*|menuLink+)+>
+<!ELEMENT menuLink (#PCDATA)>
+
+
+<!ATTLIST menuGroup key CDATA #REQUIRED>
+<!ATTLIST menuGroup label CDATA #REQUIRED>
+
+<!ATTLIST menuLink key CDATA #REQUIRED>
+<!ATTLIST menuLink label CDATA #REQUIRED>
+<!ATTLIST menuLink mode CDATA #REQUIRED>
+<!ATTLIST menuLink windowname CDATA #REQUIRED>
+<!ATTLIST menuLink module CDATA #REQUIRED>]><menu>
+<menuGroup key="BankCustomer_Soap_GUI" label="BankCustomer_Soap_GUI">
+    <menuLink label="Create"  key="BankCustomer_Soap_GUI.Create" windowname="Create" module="BankCustomer_Soap_GUI"  mode="DEFAULT"/>
+    <menuLink label="create1"  key="BankCustomer_Soap_GUI.Create1" windowname="Create1" module="BankCustomer_Soap_GUI"  mode="DEFAULT"/>
+    <menuLink label="Delete"  key="BankCustomer_Soap_GUI.Delete" windowname="Delete" module="BankCustomer_Soap_GUI"  mode="DEFAULT"/>
+    <menuLink label="Get"  key="BankCustomer_Soap_GUI.Get" windowname="Get" module="BankCustomer_Soap_GUI"  mode="DEFAULT"/>
+    <menuLink label="Modify"  key="BankCustomer_Soap_GUI.Modify" windowname="Modify" module="BankCustomer_Soap_GUI"  mode="DEFAULT"/>
+</menuGroup >
+</menu>
