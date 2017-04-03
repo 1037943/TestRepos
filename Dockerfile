@@ -7,6 +7,8 @@ RUN mkdir  /EnterpriseAppsMaker && \
  mkdir  /EnterpriseAppsMaker/logs && \
  chmod 777 /EnterpriseAppsMaker/logs && \
  chmod 777 /EnterpriseAppsMaker
+# Copy EAM generated deployable
+COPY Deployment/InitW1/BankCustomer/appserver/BankCustomer.jar /EnterpriseAppsMaker
 # Expose the http, database and administration ports
 EXPOSE 8761 9990
 # Specify container startup command
